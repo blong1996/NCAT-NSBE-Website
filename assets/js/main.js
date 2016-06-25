@@ -1,10 +1,7 @@
 
 
 (function($) {
-
-	var today = new Date();
-	document.getElementById("copyright").innerHTML = "&copy; "+today.getFullYear()+
-		" National Society of Black Engineers NC A & T Chapter. All rights reserved.";
+	
 
 	skel.breakpoints({
 		xlarge:  '(max-width: 1680px)',
