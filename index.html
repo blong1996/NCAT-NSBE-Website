@@ -1,4 +1,10 @@
 <!DOCTYPE HTML>
+<!--
+    This page renders the home page for the NC A & T Chapter of the
+    National Society of Black Engineers.
+
+    Last Changed: July 2016, Brandon L.
+-->
 <html>
 	<head>
 		<title>National Society for Black Engineers | NCAT Chapter</title>
@@ -12,17 +18,24 @@
 		<script type="text/javascript">
 			$('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
 		</script>
+		<!-- Mailing List -->
+		<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js"
+				data-dojo-config="usePlainJson: true, isDebug: false"></script>
+		<script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) {
+			L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"6eb8b6ece9a0ad16fa92dbab0","lid":"bd39adcc9b"})
+			})
+		</script>
 	</head>
 	<body>
 
 		<!-- Header -->
 			<div id="header" class="alt">
-				<a class="logo" href="index.html"><strong>NSBE</strong> NC A & T Chapter</a>
+				<a class="logo" href="index.html"><strong>NSBE</strong> | NC A & T Chapter</a>
 				<nav id="nav">
 					<ul>
 						<li class="active"><a href="index.html">Home</a></li>
 						<li>
-							<a href="#">Our Chapter</a>
+							<a href="about.html">Our Chapter</a>
 							<ul>
 								<li><a href="about.html">About Us</a></li>
 								<li><a href="e-board.html">Executive Board</a></li>
@@ -62,21 +75,21 @@
 
 				<!-- Banner -->
 					<section class="banner">
-						<h2>Ipsum feugiat tempus sed aliquam<br />
-						neque dapibus lorem volutpat</h2>
+						<h2>Our Mission:</h2>
+						<p>"To increase the number of culturally responsible Black engineers who excel <br>
+							academically, succeed professionally and positively impact the community."</p>
 						<ul class="actions">
-							<li><a href="#" class="button">Learn More</a></li>
+							<li><a href="about.html" class="button">Learn More</a></li>
 						</ul>
 					</section>
 
-				<!-- One -->
+				<!-- One
 					<section id="one" class="wrapper spotlight">
 						<div class="content">
 							<div class="inner">
-								<h2>Magna veroeros</h2>
-								<p>Praesent dapibus, neque id cursus faucibus, tortor neque ege tas augue, eu vulputate magna eros eu erat. Aliquam erat et volutpat. Nam dui mi, tincidunt quis, accumsan porttitor tempus.</p>
+								<h2>The largest student-organization for the College of Engineers</h2>
 								<ul class="actions">
-									<li><a href="#" class="button">Learn More</a></li>
+									<li><a href="#" class="button">Join Today!</a></li>
 								</ul>
 							</div>
 						</div>
@@ -106,16 +119,15 @@
 								</div>
 							</li>
 						</ul>
-					</section>
+					</section>-->
 
 				<!-- Two -->
 					<section id="two" class="wrapper style1 spotlight alt">
 						<div class="content">
 							<div class="inner">
-								<h2>Ipsum accumsan</h2>
-								<p>Praesent dapibus, neque id cursus faucibus, tortor neque ege tas augue, eu vulputate magna eros eu erat. Aliquam erat et volutpat. Nam dui mi, tincidunt quis, accumsan porttitor tempus.</p>
+								<h2>The largest student-organization for the College of Engineering</h2>
 								<ul class="actions">
-									<li><a href="#" class="button">Learn More</a></li>
+									<li><a href="members.html" class="button">Join Today</a></li>
 								</ul>
 							</div>
 						</div>
@@ -128,10 +140,9 @@
 					<section id="three" class="wrapper style2 spotlight">
 						<div class="content">
 							<div class="inner">
-								<h2>Etiam consequat</h2>
-								<p>Praesent dapibus, neque id cursus faucibus, tortor neque ege tas augue, eu vulputate magna eros eu erat. Aliquam erat et volutpat. Nam dui mi, tincidunt quis, accumsan porttitor tempus.</p>
+								<h2>Backed by some of the nations top corporations</h2>
 								<ul class="actions">
-									<li><a href="#" class="button">Learn More</a></li>
+									<li><a href="become-a-partner.html" class="button">Become a Partner</a></li>
 								</ul>
 							</div>
 						</div>
@@ -144,10 +155,9 @@
 					<section id="four" class="wrapper style3 spotlight alt">
 						<div class="content">
 							<div class="inner">
-								<h2>Quis adipiscing</h2>
-								<p>Praesent dapibus, neque id cursus faucibus, tortor neque ege tas augue, eu vulputate magna eros eu erat. Aliquam erat et volutpat. Nam dui mi, tincidunt quis, accumsan porttitor tempus.</p>
+								<h2>Active throughout the entire school year</h2>
 								<ul class="actions">
-									<li><a href="#" class="button">Learn More</a></li>
+									<li><a href="events.html" class="button">Upcoming Events</a></li>
 								</ul>
 							</div>
 						</div>
@@ -203,15 +213,15 @@
             </ul>-->
 			<ul class="joined-icons">
 				<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-				<li><a href="https://twitter.com/NCATNSBE" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a target="_blank" href="https://twitter.com/NCATNSBE" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 				<!--<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>-->
 				<li><a href="https://www.instagram.com/1213_nsbe/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 				<!--<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>-->
 			</ul>
 			<ul class="major-icons">
-				<li><a href="https://nsbe.org/">NSBE National</a></li>
-				<li><a href="https://nsbe.org/Regions/Region2/default.aspx">NSBE Region II</a></li>
-				<li><a href="http://www.ncat.edu">NC A & T</a></li>
+				<li><a target="_blank" href="https://nsbe.org/">NSBE National</a></li>
+				<li><a target="_blank" href="https://nsbe.org/Regions/Region2/default.aspx">NSBE Region II</a></li>
+				<li><a target="_blank" href="http://www.ncat.edu">NC A & T</a></li>
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
 			<p class="copyright">&copy;
