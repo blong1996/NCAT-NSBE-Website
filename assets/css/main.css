@@ -1661,8 +1661,8 @@ a.back-to-top:hover {
 /* Type */
 
 	body {
-		background-color: #b8b8b8;
-		color: #434343;
+		background-color: rgba(0, 0, 0, 0.87);
+		color: #000000;
 	}
 
 	body, input, select, textarea {
@@ -2889,10 +2889,9 @@ a.back-to-top:hover {
 		}
 
 		.logo:before {
-			background: #da0025;
 			border-radius: 4px;
 			color: #ffffff;
-			content: '\f0e7';
+			background-image: url("/images/logo.png");
 			display: inline-block;
 			font-size: 3em;
 			height: 1.65em;
@@ -3202,7 +3201,7 @@ a.back-to-top:hover {
 	}
 
 		.wrapper.style1 {
-			background-color: rgba(218, 0, 37, 0.75);
+			background-color: rgb(218, 0, 37);
 			color: #ffffff;
 		}
 
@@ -3407,7 +3406,7 @@ a.back-to-top:hover {
 			}
 
 		.wrapper.style2 {
-			background-color: rgba(42, 161, 69, 0.76);
+			background-color: rgb(47, 161, 27);
 			color: #ffffff;
 		}
 
@@ -3612,7 +3611,7 @@ a.back-to-top:hover {
 			}
 
 		.wrapper.style3 {
-			background-color: rgba(181, 173, 9, 0.76);
+			background-color: rgb(248, 221, 48);
 			color: #ffffff;
 		}
 
