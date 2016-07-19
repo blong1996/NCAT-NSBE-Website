@@ -4121,6 +4121,7 @@ a.back-to-top:hover {
 			box-shadow: none;
 			height: 8em;
 			position: absolute;
+			color: white;
 		}
 
 			#header.alt > .logo {
