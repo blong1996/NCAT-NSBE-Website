@@ -1798,6 +1798,9 @@ a.back-to-top:hover {
 		h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
 			display: none;
 		}
+		#content p {
+			text-align: justify;
+		}
 
 	}
 
@@ -2880,6 +2883,12 @@ a.back-to-top:hover {
 		}
 
 /* Logo */
+
+	.torch img {
+		width: 38px;
+		height: 45px;
+		padding-top: 8px;
+	}
 
 	.logo {
 		text-decoration: none;
