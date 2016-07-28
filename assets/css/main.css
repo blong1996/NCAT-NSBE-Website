@@ -27,6 +27,47 @@ a.back-to-top:hover {
 	border-bottom: 1px solid rgba(123, 123, 123, 0.5);
 }
 
+.frame2 {
+	position: relative;
+	padding-bottom: 50%;
+	height: 0;
+	overflow: hidden;
+	width: 100%;
+	margin-top: 30px;
+
+}
+
+.frame2 iframe {
+	margin:0 auto;
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.frame1 {
+	position: relative;
+	padding-bottom: 50%;
+	height: 0;
+	overflow: hidden;
+	width: 80%;
+	height: 1300px;
+	margin-top: 30px;
+
+}
+
+.frame1 iframe {
+	margin:0 auto;
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.center {
+	margin: 0 auto;
+}
+
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -1772,12 +1813,23 @@ a.back-to-top:hover {
 		header h1 {
 			font-size: 30pt;
 		}
+
+	}
+	@media screen and (max-width: 1000px) {
+		.frame1 {
+			position: relative;
+			padding-bottom: 75%;
+			overflow: hidden;
+			width: 100%;
+
+		}
 	}
 
 	@media screen and (max-width: 736px) {
 		header h1 {
 			font-size: 25pt;
 		}
+
 
 		h1 {
 			font-size: 1.75em;
@@ -1816,6 +1868,16 @@ a.back-to-top:hover {
 		h3 {
 			font-size: 1em;
 		}
+		.frame2 {
+			position: relative;
+			padding-bottom: 75%;
+			height: 0;
+			overflow: hidden;
+			width: 100%;
+
+		}
+
+
 
 	}
 
