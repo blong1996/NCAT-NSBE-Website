@@ -1,6 +1,30 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
 
+.pres {
+	float: left;
+	padding-right: 1.5em;
+}
+@media screen and (max-width: 450px) {
+	.pres {
+		float: none;
+		padding-right: 0;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 20px;
+	}
+}
+
+.board {
+	margin: 15px;
+}
+
+@media screen and (max-width: 540px) {
+	.board {
+		margin: 0 auto;
+	}
+}
 
 /* back to top button */
 a.back-to-top {
@@ -1679,7 +1703,10 @@ a.back-to-top:hover {
 
 		html, body {
 			min-width: 320px;
+
 		}
+
+
 
 	}
 
@@ -1848,7 +1875,6 @@ a.back-to-top:hover {
 		}
 
 		h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
-			display: none;
 		}
 		#content p {
 			text-align: justify;
@@ -2618,6 +2644,8 @@ a.back-to-top:hover {
 				ul.actions {
 					margin: 0 0 2em 0;
 				}
+
+
 
 					ul.actions li {
 						padding: 1em 0 0 0;
