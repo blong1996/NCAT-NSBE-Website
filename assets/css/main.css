@@ -19,6 +19,7 @@
 .board {
 	margin: 10px;
 	width: 200px;
+	height: 300px;
 }
 .board img {
 	max-width: 150px;
@@ -1880,7 +1881,7 @@ a.back-to-top:hover {
 
 		h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
 		}
-		#content p {
+		.text p {
 			text-align: justify;
 		}
 
