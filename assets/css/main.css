@@ -834,7 +834,7 @@ a.back-to-top:hover {
 
 	}
 
-	@media screen and (max-width: 980px) {
+	@media screen and (max-width: 1020px) {
 
 		.row > * {
 			padding: 0 0 0 1.35em;
@@ -2804,7 +2804,7 @@ a.back-to-top:hover {
 					margin-bottom: 0;
 				}
 
-			@media screen and (max-width: 980px) {
+			@media screen and (max-width: 1020px) {
 
 				ul.faces {
 					-moz-flex-direction: column;
@@ -3275,7 +3275,7 @@ a.back-to-top:hover {
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1020px) {
 
 			.banner {
 				padding: 8em 3em 6em 3em ;
@@ -4005,7 +4005,7 @@ a.back-to-top:hover {
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1020px) {
 
 			.wrapper.spotlight {
 				-moz-flex-direction: column;
@@ -4338,7 +4338,7 @@ a.back-to-top:hover {
 
 	}
 
-	@media screen and (max-width: 980px) {
+	@media screen and (max-width: 1020px) {
 
 		body {
 			padding-top: 0;
@@ -4394,7 +4394,7 @@ a.back-to-top:hover {
 			padding-top: 0;
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1020px) {
 
 			#main {
 				border-radius: 0;
@@ -4455,7 +4455,7 @@ a.back-to-top:hover {
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1020px) {
 
 			#footer {
 				max-width: 100%;
@@ -4616,7 +4616,7 @@ a.back-to-top:hover {
 			visibility: visible;
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1020px) {
 
 			#navPanel {
 				display: block;
@@ -4682,7 +4682,7 @@ a.back-to-top:hover {
 				width: 3.5em;
 			}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1020px) {
 
 			#navButton {
 				display: block;
