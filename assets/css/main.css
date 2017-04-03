@@ -21,12 +21,23 @@
 	width: 200px;
 	height: 300px;
 }
+.sponsor {
+	margin: 10px;
+	width: 200px;
+	height: 200px;
+}
 .board img {
+	max-width: 150px;
+}
+.sponsor img {
 	max-width: 150px;
 }
 
 @media screen and (max-width: 540px) {
 	.board {
+		margin: 0 auto;
+	}
+	.sponsor {
 		margin: 0 auto;
 	}
 }
